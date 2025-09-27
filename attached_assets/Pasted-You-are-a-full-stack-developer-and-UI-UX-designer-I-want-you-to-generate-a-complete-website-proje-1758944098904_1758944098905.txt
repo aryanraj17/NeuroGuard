@@ -1,0 +1,54 @@
+You are a full-stack developer and UI/UX designer. I want you to generate a **complete website project scaffold** (frontend + backend) for a dementia detection system. The website will have:
+
+1. **Landing Page** — modern, clean, trust-oriented, with clear call to action (“Get Started”, “Sign Up / Login”).  
+   - Hero section with tagline, subtle visuals or illustration of brain/speech/health.  
+   - Features/services section (e.g. “AI Speech Analysis”, “Cognitive Testing”, “Risk Dashboard”).  
+   - How it works section (3-step flow).  
+   - Testimonials / trust section (if time).  
+   - Footer with links, contact, GDPR/privacy.  
+
+2. **User Dashboard (after login)** — immersive, interactive, visual. Should show:
+   - Current risk score prominently (gauge or big card).  
+   - Time series graph of risk over past sessions.  
+   - Feature contribution chart (pie or bar: speech vs cognitive contributions).  
+   - Scores breakdown: speech score, cognitive score, sub-features.  
+   - Maybe a “history” table of previous tests.  
+   - Recommendations / insights text based on risk category.  
+
+3. **Backend/Endpoints**:
+   - Authentication (register, login).  
+   - API endpoint(s) to accept outputs from Model 1 & Model 2 (speech & cognitive scores).  
+   - API endpoint for combining into risk score + returning contributions + history.  
+   - DB to store user profiles, past test sessions, scores, timestamps.  
+
+4. **Tech Stack Suggestion** (you can generate code using this):
+   - Frontend: React (with libraries like Recharts / Chart.js / D3 for graphs), or Vue/Angular.  
+   - Backend: Node.js + Express or Python + FastAPI / Flask.  
+   - Database: PostgreSQL / SQLite / MongoDB.  
+   - Authentication: JWT or sessions.  
+   - Styling: Tailwind CSS or Bootstrap or Material UI design.
+
+5. **Design Inspiration References**:
+   - Use **medical / health dashboard designs** as seen on Dribbble / Behance. :contentReference[oaicite:0]{index=0}  
+   - Use **healthcare landing page best practices** (responsive, trust signals, simple flow) from articles on creating healthcare landing pages. :contentReference[oaicite:1]{index=1}  
+   - Use **modern dashboard UI / admin panels** inspiration like Muzli dashboard patterns. :contentReference[oaicite:2]{index=2}  
+
+6. **Extras / polish instructions**:
+   - The landing page must be responsive (desktop & mobile).  
+   - Add smooth transitions or animations (e.g. when switching between views).  
+   - Use theme colors (soft blues, teal, white) to evoke trust and health.  
+   - Provide placeholder data so UI works before the real AI models integrate.  
+   - Write clear instructions / comments in code so future integration is easy.
+
+Please generate:
+
+- File structure (folders + files).  
+- Sample code templates for frontend (login, dashboard, graphs) and backend (endpoints, data models).  
+- Example CSS / styling.  
+- Sample API payloads (input / output).  
+- Template dummy data.  
+
+I will use this scaffold in Replit / VS Code and then integrate my AI models later.  
+
+Make it visually appealing, modular, and ready for integration with Model 1 & Model 2.
+
